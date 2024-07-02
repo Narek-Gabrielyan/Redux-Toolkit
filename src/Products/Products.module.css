@@ -1,0 +1,32 @@
+.Products {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  margin: 10px 5px;
+}
+
+.Element {
+  text-align: center;
+
+  * {
+    margin: 0;
+  }
+
+  > img {
+    height: 250px;
+  }
+}
